@@ -1,0 +1,5 @@
+peso = float(input("ingresa tu peso en kg: "))
+estatura = float(input("ingresa tu estatura en metros:"))
+imc = peso / (estatura * estatura)
+imc_string = str(imc)
+print("Tu indice de masa muscular es: " + imc_string)
